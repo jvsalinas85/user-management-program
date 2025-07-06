@@ -9,4 +9,4 @@ solana-sdk = "2.0"
 solana-client = "2.0"
 borsh = "1.5"
 
-user-management-program = { path = "../program" } # ¡Importante! Ruta a tu crate del programa
+user-management-program = { path = ".." } # ¡Importante! Ruta a tu crate del programa
