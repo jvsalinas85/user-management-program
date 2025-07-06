@@ -31,7 +31,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     }
 
     let user_account = Keypair::new();
-    let program_id = Pubkey::from_str("<REEMPLAZA_CON_TU_PROGRAM_ID>")?;
+    let program_id = Pubkey::from_str("AcgxJ7KAbEYcN1uuZvcJajRBSkPXwVsCDqt6WdTU8tZk")?;
 
     let instruction_data = UserInstruction::CreateProfile {
         username: "jesusvalencia".to_string(),

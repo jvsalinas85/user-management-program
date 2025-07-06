@@ -1,0 +1,12 @@
+[package]
+name = "client"
+version = "0.1.0"
+edition = "2021"  # O "2021" si no estás usando características del 2024 aún
+
+[dependencies]
+# Dependencias principales para interactuar con Solana
+solana-sdk = "2.0"
+solana-client = "2.0"
+borsh = "1.5"
+
+user-management-program = { path = "../program" } # ¡Importante! Ruta a tu crate del programa
